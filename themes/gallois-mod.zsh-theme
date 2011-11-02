@@ -13,4 +13,4 @@ git_custom_status() {
 
 RPS1='$(git_custom_status)%{$fg[red]%}%{$reset_color%} $EPS1'
 
-PROMPT='%{$fg_bold[black]%}[%~% ]%(?.%{$fg[green]%}.%{$fg[red]%})%B$%b '
+PROMPT='%{$fg_bold[black]%}[%~% ]%(?.%{$fg[green]%}.%{$fg[red]%})%B->%b '
